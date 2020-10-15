@@ -16,7 +16,7 @@ spec:
         image:
           tag: 2.9.17
         ingress:
-          host: devops-toolkit.$INGRESS_HOST.xip.io
+          host: devops-toolkit.192.168.39.118.xip.io
       version: v3
   destination:
     namespace: production
